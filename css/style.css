@@ -2,8 +2,8 @@ body{
   background-color: #142F43;
 }
 .div-1{
-  height: 34rem;
-  width: 25%;
+    height: 80vh;
+    width: 30vw;
   background-color: #1A374D;
   margin: 5rem auto auto auto;
   border-radius: 10px;
@@ -12,10 +12,10 @@ body{
   bottom: 2rem;
 }
 img{
-  width: 270px;
+  width: 30rem;
   height: 270px;
   border-radius: 10px;
-  margin: 20px 20px 10px 35px ;
+  margin: 20px 1rem 10px 1rem ;
 }
 h3{
   font-family: 'Open Sans',sans-serif;
@@ -82,3 +82,15 @@ span:hover{
 img:hover{
   background-color: #4FBDBA;
 }
+
+@media screen and (max-width: 600px) {
+      .div-1{
+          width: 70vw;
+      }
+      span{
+          display: block;
+          position: relative;
+          top: 10px;
+          right: 30px;
+      }
+  }
